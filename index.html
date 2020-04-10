@@ -3,9 +3,10 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
-		<title> piggyvest</title>
-		<link rel="stylesheet" href="fonts/karla-bold.ttf">
+		<title> PiggyVest | Dashboard</title>
+		<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="favicon.ico">
 	</head>
 	<body>
 		<div class="logo-1">
@@ -62,20 +63,21 @@
 
 					<div class="input-div">
 						<label for="aboutus">How Did You Hear About Us? (Optional)</label>
-						<input list="info" id="aboutus" name="aboutus" class="input-style" placeholder="Click To Select">
-						<datalist id="info">
-							<option value="Click To Select" id="option-list">
-							<option value="Facebook">
-							<option value="Twitter">
-							<option value="instagram">
-							<option value="Friend/Family/Coworker Referral">
-							<option value="Google search">
-							<option value="Google playstore">
-							<option value="Online Blog">
-							<option value="Local Newspaper">
-							<option value="At an event">
-							<option value="Other">
-						</datalist>
+						<!--<input list="info" id="aboutus" name="aboutus" class="input-style" placeholder="Click To Select">
+						-->
+						<select class="input-select-style" id="aboutus">
+							<option value="">Click To Select</option>
+							<option value="Facebook">Facebook</option>
+							<option value="Twitter">Twittter</option>
+							<option value="instagram">Instagram</option>
+							<option value="Friend/Family/Coworker Referral">Friend/Family/Coworker Referral</option>
+							<option value="Google search">Google search</option>
+							<option value="Google playstore">Google playstore</option>
+							<option value="Online Blog">Online Blog</option>
+							<option value="Local Newspaper">Local Newspaper</option>
+							<option value="At an event">At an event</option>
+							<option value="Other">Other</option>
+							</select>
 					</div>
 
 					<button class="input-button-style">CREATE ACCOUNT</button>
@@ -83,7 +85,7 @@
 				</form>
 			</div>
 			<div class="link"> 
-				<a href="piggvest-task/index.html" class="a-style"> Already have an account? Log in </a>
+				<a href="" class="a-style"> Already have an account? Log in </a>
 			</div>
 		</div>
 	</body>
