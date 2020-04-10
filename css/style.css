@@ -4,14 +4,11 @@
          url('karla-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 body {
     background-color: #062863;
     font-family: 'karlaregular';
 }
-
 .logo-1 {
     /* border: #fff 1px solid; */
     position: fixed;
@@ -23,43 +20,37 @@ body {
     width: 200px;
     height: 200px;
 }
-
 .logo-2 {
     /* border: #fff 1px solid; */
     position: fixed;
     right: 0;
-    margin-right: -100px;
-    margin-top: 30px;
+    margin-right: -65px;
+    margin-top: -35px;
 }
-
 .image2 {
     width: 200px;
     height: 200px;
 }
-
 .logo-3 {
     /* border: #fff 1px solid; */
     position: fixed;
     left: -5;
     bottom: 0;
-    margin-left: -60px;
+    margin-left: -65px;
     margin-bottom: -45px;
 }
-
 .image3 {
     width: 200px;
     height: 200px;
 }
-
 .logo-4 {
     /* border: #fff 1px solid; */
     position: fixed;
     right: 0;
     bottom: 0;
-    margin-right: -75px;
-    margin-bottom: -25px;
+    margin-right: -65px;
+    margin-bottom: -35px;
 }
-
 .image4 {
     width: 200px;
     height: 200px;
@@ -68,7 +59,6 @@ body {
     text-align: center;
     margin-top: -40px;
 }
-
 .form-wrapper {
     text-align: center;
     margin-top: -40px;
@@ -81,33 +71,27 @@ body {
     max-width: 400px;
     display: inline-block;
 }
-
 .form-header {
     padding-top: 5px;
 }
-
 .title {
     font-size: 24px;
     font-family: 'karlaregular';
     color: #062863;
 }
-
 .subtitle {
     font-size: 14px;
     font-family: 'karlaregular';
 }
-
 .input-div {
     margin-top: 25px;
     margin-right: 15px;
     margin-left: 15px;
     text-align: left;
 }
-
 .input-div label {
     font-size: 12px;
 }
-
 .input-style {
     width: 100%;
     padding: 1rem;
@@ -117,7 +101,6 @@ body {
     box-sizing: border-box;
     resize: vertical;
 }
-
 .input-select-style {
     width: 100%;
     padding: 1rem;
@@ -125,7 +108,6 @@ body {
     background-color: #e2e8f0;
     border-radius: 5px;
 }
-
 .input-select-style option{
     width: 100%;
     padding: 1rem;
@@ -133,7 +115,6 @@ body {
     background-color: #ffffff;
     border-radius: 5px;
 }
-
 .input-button-style {
     margin-top: 25px;
     margin-bottom: 30px;
@@ -144,60 +125,47 @@ body {
     background-color: rgb(8, 62, 158);
     color: #ffffff;
 }
-
 .input-button-style:hover {
     background-color: rgb(3, 42, 109);
 }
-
-
 /*
     background-color: #2b2dad;
     color: #ffffff;
 } */
-
 .input-select {
     margin-top: 25px;
     margin-right: 15px;
     margin-left: 15px;
     text-align: left;
 }
-
 .link {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 40px;
     color: #ffffff;
 }
-
-
 .a-style {
     color: #ffffff;
     text-decoration: none;
     font-size: 13px;
 }  
-
 .a-style:hover {
    color:#f0f4f88f;
 }
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px) {
     .image1 {
-        width: 200px;
-        height: 200px;
+        width: 70px;
+        height: 80px;
     }
-
     .image2 {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
-
     .image3 {
-        width: 200px;
-        height: 200px;
+        width: 90px;
+        height: 90px;
     }
-
     .image4 {
-        width: 200px;
-        height: 200px;
+        width: 90px;
+        height: 90px;
     }
-}
